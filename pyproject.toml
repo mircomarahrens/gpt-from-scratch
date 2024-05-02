@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt-from-scratch"
+version = "0.1.0"
+description = "We are following <https://www.youtube.com/watch?v=kCc8FmEb1nY>."
+authors = ["Mirco Marahrens <mirco.marahrens@googlemail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
